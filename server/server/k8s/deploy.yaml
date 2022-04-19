@@ -1,0 +1,60 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+    name: skyspace-api
+spec:
+    replicas: 3
+    selector:
+        matchLabels:
+            app: skyspace-api
+    template:
+        metadata:
+            labels:
+                app: skyspace-api
+        spec:
+            containers:
+                -   name: skyspace-api
+                    imagePullPolicy: Always
+                    image: us.gcr.io/adria-health/skyspace-api:latest
+                    ports:
+                    -   containerPort: 8000
+                    env:
+                    -   name: SERVER_MODE
+                        value: "PROD"
+                    -   name: DB_HOST
+                        value: "skyspace.ctbudhzr927e.us-east-2.rds.amazonaws.com"
+                    -   name: DB_NAME
+                        value: "skyspace_prod"
+                    -   name: DB_USER
+                        value: "postgres"
+                    -   name: EMAIL_FROM
+                        value: "contact@skyspace.live"
+                    -   name: EMAIL_BCC
+                        value: "peter@skyspace.live:"
+                    -   name: FRONTEND_URL
+                        value: "https://skyspace.live/"
+                    -   name: SECRET_KEY
+                        valueFrom:
+                            secretKeyRef:
+                                name: skyspace-api-secrets
+                                key: SECRET_KEY
+                    -   name: DB_PASSWORD
+                        valueFrom:
+                            secretKeyRef:
+                                name: skyspace-api-secrets
+                                key: DB_PASSWORD
+                    -   name: SENDGRID_API_KEY
+                        valueFrom:
+                            secretKeyRef:
+                                name: skyspace-api-secrets
+                                key: SENDGRID_API_KEY
+                    -   name: AWS_ACCESS_KEY_ID
+                        valueFrom:
+                            secretKeyRef:
+                                name: skyspace-api-secrets
+                                key: AWS_ACCESS_KEY_ID
+                    -   name: AWS_SECRET_ACCESS_KEY
+                        valueFrom:
+                            secretKeyRef:
+                                name: skyspace-api-secrets
+                                key: AWS_SECRET_ACCESS_KEY

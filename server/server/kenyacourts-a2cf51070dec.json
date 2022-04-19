@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "kenyacourts-314812",
+  "private_key_id": "6f0d590d8c5a50a890a4c3f77238f39401a21f15",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC7ywMi2DrTnxaz\nFLkMVykWfCvK6vCZg/f2oBQgabQOr9gf++PAFZXMB3aY6sYGZIwZflLXoq8HWRFu\njEnfxR8MQVy2ZeO4PoSnOsAnZEw6zLbho08rzFbP1zwjtHPnOsT5f0qb2DpYHNeg\nRNgEpFOTsTE8gx7zU+dH9LXqUeDaHzK1I3QIhcxtqXXmz9PFWts/GUl32hHhhN3+\n/Vtz2tBz2p8+a4RU1uLrOabXcjFm14xoEYpMd0vmUHTurNPMgZF+1oHud7BEhXeK\nlxG4FyXSOiO+CIwSOVWIWdCEfUC9BsYd5AFFcNt/aaNfTc68x1XMdmaWEIGxyaeN\n0OSCi24VAgMBAAECggEAVy5rWUzbGo2bwy2WrvTz3T1uMzkY05whjLxKO7X24m6e\nPlL5K56ZuWupklpD7onVRKyRlwwuh5HA9vpn/VuNC2p4uTDaJBnaCazLsj3s6ctK\nB7yCL8ogb0Lz53uJ50owUcfXgjxC8c8KB5yOULFdH46+VeJlhv9nus8PeSXj5j6T\nRyXRAhZMQAoqUBPGSsL2w3Ji/Qi/U84u8Tj3NLSysZL0TYfnbUOzgkilwwxho7ZX\nqjZAx8hs7OXnf/xL+T/KnvQ1gvs+PC5C2u74ADaidJthr7zIPt1IOmypnIadrLfz\nCb2EAEOM8a2vQrSzqaNV/tjNs/UNTbH37/w0elS8bQKBgQDuZqfFzNBl2iH0X8JW\nnbJ8RrCJsmSfYvlxJLVYz//EjQXhrSJRtm08OS6ActgXfRVmy2tURP5qoB43Jqji\nwopA+eB+1FiekJFPco6S5S+lfWVTJVGk9L46mOGLVl/WXMFKb46CtxGihNt14WOO\ns2YFKlXRK2A0f3T3NoDvQsmLcwKBgQDJp/VOOpHy+L9y1Z1eEY9eQG7SCOzu7SCV\nrLPkiXyPknlQRbM1LwZ77TO20NLF5a+kHR3vkaW4qjVEXtlOt6CZfSdzG//xhhNh\nk92PAte6Qrm4Brmt+k4sR4h1bwC2lqWOyJ+btF2Uf1ETJNflVFVPo48zG6gjPMmM\nIqwdNjBOVwKBgQDqpZ2ygYIJDednuSz1xeecjJNMJIsHmgo8g83+qVNsKQXF93wV\nA0KHCR0tDlyE2ffLoqJ0Yigr2IeE7wdBkgs0Iv4Et4q2H0L2+KE+EliQQVkOumee\nvcnSsREl7RENU2RomF6jZ/7ygGPlpb8xAICEywOGinP5mA4PGNVVKd5n4wKBgHnT\nr55QQiZA4yCULxtKjovJb2oSnFmIBpyGFrQl34u5WPMG+MpTm5444no61GtcZO1H\n7fLy0eSrZ7zjdHNa+npgIvom20xlzMWxmDOy6vOLJjooTfruclXL7YPMyOiGQITv\nbYWaxMJW3HstUgUpGtUfIf8lYUHQko7Hz6ViPHLHAoGBALh8932jVUZE4Br1GHHq\nLw6QMFUIloJ2MhjV0CDz+6J/LNSR2kbQLrt+f9mnWTlWkHFYfA87Dh96pKhfSUuF\n+r11Pn393qi3d5Tt3WEDXeXKXmG82scBFMofDbpLxnIfV/kcUATxmCBbOUQPfxEL\nFrApRXHUN8D1vpPpwIAdYI9G\n-----END PRIVATE KEY-----\n",
+  "client_email": "kenyacourts@kenyacourts-314812.iam.gserviceaccount.com",
+  "client_id": "103132271419445656529",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/kenyacourts%40kenyacourts-314812.iam.gserviceaccount.com"
+}

@@ -1,0 +1,14 @@
+version: '3'
+services:
+  productionapi:
+    restart: unless-stopped
+    container_name: kenyacourtsapi
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/backend
+    ports:
+      - 4141:4141
+    env_file:
+      - .env
