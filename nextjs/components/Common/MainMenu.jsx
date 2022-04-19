@@ -1,11 +1,8 @@
 import React, {useState, useEffect} from 'react';
 import Link from 'next/link'
-import {ReactComponent as ReactLogo} from './logo.svg';
 
 
 import {
-    GiAnvilImpact,
-    GiSandCastle,
     GiDesk
 } from 'react-icons/gi';
 import {
@@ -17,16 +14,11 @@ import {
 } from 'react-icons/fa';
 
 import {
-    IoRocket
-} from 'react-icons/io5';
-
-import {
     AiOutlineLogin
 } from 'react-icons/ai';
 
 
 function MainLogo({}) {
-    console.log(ReactLogo)
     return (
         <div className={'main-logo'}>
             <Link href="/">

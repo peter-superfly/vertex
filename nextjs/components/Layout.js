@@ -1,11 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import MainMenu from './Common/MainMenu';
-import Link from 'next/link'
-import _ from 'lodash';
 import { useRouter } from "next/router";
-import {getLS} from "../lib/ls";
 import {searchClient, search} from "../lib/typesense";
-import { ReactComponent as Logo } from '../public/logo.svg';
 
 import {
     InstantSearch,
@@ -26,15 +22,6 @@ import {
 
 
 import Head from 'next/head'
-
-function MainLogo({}) {
-    let logged_in_user = getLS('user')
-
-    return (<div className={'main-logo'}>
-        <Link href={logged_in_user ? `/${logged_in_user['username']}` : "/"}>
-            <Logo fill='red' stroke='green'/>
-        </Link></div>)
-}
 
 function Layout(props) {
     console.log(searchClient)
